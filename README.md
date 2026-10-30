@@ -61,6 +61,15 @@ pnpm dev
 
 Hand the agent a task ("users report the password reset email arrives twice, fix it") and watch the four stations fire in order, ending in a draft PR on `FACTORY_REPO`. Local runs are treated as untrusted, so changes to GitHub wait for your approval in the TUI.
 
+## 如何报告 Bug
+
+报告 Bug 时，请提供以下信息，便于定位和复现问题：
+
+- 预期行为：描述你认为本应出现的结果。
+- 实际行为：描述实际观察到的结果，并附上相关报错信息。
+- 复现步骤：说明前置条件，并按顺序列出可重复触发问题的操作。
+- 版本信息：提供项目版本或提交号，以及操作系统、Node.js、pnpm 等相关运行环境的版本。
+
 ## Resources
 
 - [Foreman Docs](https://ask-foreman.dev/docs)
